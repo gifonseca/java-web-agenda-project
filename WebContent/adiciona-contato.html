@@ -10,7 +10,22 @@
 <title>Agenda</title>
 </head>
 <body>
-	<br><div class='container'>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="index.html">Home <span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="adiciona-contato.html">Cadastre-se</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="listarContatos.html">Usuários</a></li>
+			</ul>
+		</div>
+	</nav>
+	<br>
+	<div class='container'>
 		<form action="cadastro-usuario">
 			<div class="form-row">
 				<div class="form-group col-md-6">
@@ -40,7 +55,9 @@
 					placeholder="1234 Main St">
 			</div>
 
-			<button type="submit" class="btn btn-dark">Enviar</button>
+			<button type="submit" class="btn btn-dark">
+				<a href="listar_contatos.html"></a></abbr>Enviar
+			</button>
 			<button type="button" class="btn btn-dark">
 				<a href="index.html"> Sair</a>
 			</button>
