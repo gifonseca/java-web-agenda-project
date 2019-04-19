@@ -8,7 +8,7 @@ public class ConnectionFactory {
 	public Connection getConnection() throws SQLException {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			return (Connection) DriverManager.getConnection("jdbc:mysql://localhost/testebd", "root", "");
+			return (Connection) DriverManager.getConnection("jdbc:mysql://localhost/agendadb", "root", "");
 		} 
 		catch (ClassNotFoundException e) {
 			throw new RuntimeException(e);
